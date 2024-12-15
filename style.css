@@ -1,0 +1,38 @@
+*, *::after, *::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+   --light-gray: hsl(0, 0%, 98%);
+   --gray-blue: hsl(229, 6%, 66%);
+   --dark-blue: hsl(234, 12%, 30%);
+}
+
+html{
+    font-size: 62.5%;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    height: 100svh;
+    background: var(--light-gray);
+}
+
+.header {
+    text-align: center;
+    margin: 2.4rem 1.2rem;
+    h1{
+        color: var(--gray-blue);
+        font-size: 2.4rem;
+        font-weight: 600;
+    }
+    .header-subtitle{
+        color: var(--dark-blue);
+        font-size: 2.4rem;
+    }
+    .header-text{
+        font-size: 1.5rem;
+    }
+}
